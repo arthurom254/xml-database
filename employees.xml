@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<work>
+    <employee>
+        <e_id>1</e_id>
+        <f_name>Martha</f_name>
+        <l_name>Ondigi</l_name>
+        <salary>41000</salary>
+    </employee>
+<employee><e_id>2</e_id><f_name>Elly</f_name><l_name>Okinyi</l_name><salary>21000</salary></employee><employee><e_id>3</e_id><f_name>Arthur</f_name><l_name>Omondi</l_name><salary>12000</salary></employee><employee><e_id>4</e_id><f_name>Ivy</f_name><l_name>Achieng</l_name><salary>23000</salary></employee><employee><e_id>5</e_id><f_name>Mercy</f_name><l_name>Njery</l_name><salary>12500</salary></employee></work>

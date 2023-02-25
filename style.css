@@ -1,0 +1,143 @@
+*
+{
+    outline: none;
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+h2
+{
+    text-align: center;
+    margin-top: 30px;
+    color: red;
+}
+table{
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    border-collapse: collapse;
+}
+table thead{
+    background-color: #000;
+    color:white;
+}
+
+table td, table th{
+    padding: 10px;
+    /*width:20%;*/
+}
+
+table td
+{
+    text-align: center;
+}
+
+table tbody tr:nth-child(even)
+{
+    background-color: silver;
+}
+
+.btn
+{
+    text-decoration: none;
+    color: white;
+    border-radius: 5px;
+    width:50px;
+    display: block;
+    padding: 3px;
+}
+.btn:hover
+{
+    transition: .3s ease;
+    opacity: 0.6;
+}
+.delete, .close
+{
+    background-color: orangered;
+}
+.edit
+{
+    background-color: rgb(0, 225, 255);
+}
+.add
+{
+    width:100%;
+    background-color: rgb(17, 73, 17);
+}
+.close
+{
+    width:100%;
+}
+
+.editing
+{
+    position: absolute;
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+    z-index: 5;
+    background-color: rgba(240, 248, 255, 0.904);
+    justify-content: center;
+    align-items: center;
+    display:none;
+    
+}
+
+.edit-form
+{
+   position: relative;
+   margin-left: auto;
+   margin-right: auto;
+   background-color: rgba(0, 0, 0, 0.829);
+   color: white;
+   padding: 30px;
+}
+
+input[type='text']
+{
+    height:40px;
+    font-size: 1.3em;
+    color: blueviolet;
+}
+
+.group-members
+{
+    position: absolute;
+    top:25%;
+    width:100vw;
+    display: flex;
+    justify-content: center;
+    padding:5px ;
+    z-index: 10;
+    display: none;
+}
+.group-members ul
+{
+    list-style: none;
+}
+.group-members ul li{
+    padding-bottom: 5px;
+}
+.members
+{
+    width:350px;
+    text-align: center;
+    padding:10px;
+    color: white;
+    border-radius: 5px;
+    background-color: black;
+}
+
+.names
+{
+    width:100px;
+}
+
+.opennames
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width:200px;
+}
